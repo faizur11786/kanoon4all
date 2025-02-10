@@ -56,7 +56,7 @@ export default async function Page(props: PageProps) {
               </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
               <BreadcrumbItem>
-                <BreadcrumbPage>Investments</BreadcrumbPage>
+                <BreadcrumbPage>Payments</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
@@ -65,12 +65,10 @@ export default async function Page(props: PageProps) {
       <div className="flex flex-col gap-4 p-4 pt-0">
         <div className="flex-1 rounded-xl bg-muted/50 p-6 overflow-hidden relative">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">
-              Your Investments
-            </h1>
+            <h1 className="text-3xl font-bold tracking-tight">Your Payments</h1>
             <p className="text-muted-foreground mt-2">
-              Track and manage your property token investments. View
-              performance, returns, and transaction history.
+              Monitor and track all your payments and transactions. View payment
+              history, status updates, and manage refunds.
             </p>
           </div>
           <FlickeringGrid
